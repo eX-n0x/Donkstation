@@ -1329,6 +1329,9 @@
 /mob/living/carbon/human/species/lizard
 	race = /datum/species/lizard
 
+/mob/living/carbon/human/species/teshari
+	race = /datum/species/teshari
+
 /mob/living/carbon/human/species/ethereal
 	race = /datum/species/ethereal
 
