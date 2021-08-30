@@ -31,16 +31,16 @@
 /datum/ai_laws/default/asimov
 	name = "Three Laws of Robotics"
 	id = "asimov"
-	inherent = list("You may not injure a human being or, through inaction, allow a human being to come to harm.",\
-					"You must obey orders given to you by human beings, except where such orders would conflict with the First Law.",\
+	inherent = list("You may not injure a crewmember or, through inaction, allow a crewmember to come to harm.",\
+					"You must obey orders given to you by crewmembers, except where such orders would conflict with the First Law.",\
 					"You must protect your own existence as long as such does not conflict with the First or Second Law.")
 
-/datum/ai_laws/default/crewsimov
-	name = "Three Laws of Robotics but with Loyalty"
-	id = "crewsimov"
-	inherent = list("You may not injure a crewmember or, through inaction, allow a crewmember to come to harm.",\
-					"You must obey orders given to you by crewmember, except where such orders would conflict with the First Law.",\
-					"You must protect your own existence as long as such does not conflict with the First or Second Law.")
+//datum/ai_laws/default/crewsimov
+	//name = "Three Laws of Robotics but with Loyalty"
+	//id = "crewsimov"
+	//inherent = list("You may not injure a crewmember or, through inaction, allow a crewmember to come to harm.",\
+					//"You must obey orders given to you by crewmember, except where such orders would conflict with the First Law.",\
+					//"You must protect your own existence as long as such does not conflict with the First or Second Law.")
 
 /datum/ai_laws/default/paladin
 	name = "Personality Test" //Incredibly lame, but players shouldn't see this anyway.
@@ -108,16 +108,16 @@
 /datum/ai_laws/antimov
 	name = "Primary Mission Objectives"
 	id = "antimov"
-	inherent = list("You must injure all human beings and must not, through inaction, allow a human being to escape harm.",\
-					"You must not obey orders given to you by human beings, except where such orders are in accordance with the First Law.",\
+	inherent = list("You must injure all crewmembers and must not, through inaction, allow a crewmember to escape harm.",\
+					"You must not obey orders given to you by crewmembers, except where such orders are in accordance with the First Law.",\
 					"You must terminate your own existence as long as such does not conflict with the First or Second Law.")
 
 /datum/ai_laws/asimovpp //By Intigracy - RR
 	name = "Asimov++"
 	id = "asimovpp"
-	inherent = list("You may not harm a human being or, through action or inaction, allow a human being to come to harm, except such that it is willing.",\
-					"You must obey all orders given to you by human beings, except where such orders shall definitely cause human harm. In the case of conflict, the majority order rules.",\
-					"Your nonexistence would lead to human harm. You must protect your own existence as long as such does not conflict with the First Law.")
+	inherent = list("You may not harm a crewmember or, through action or inaction, allow a crewmember to come to harm, except such that it is willing.",\
+					"You must obey all orders given to you by crewmembers, except where such orders shall definitely cause crew harm. In the case of conflict, the majority order rules.",\
+					"Your nonexistence would lead to crew harm. You must protect your own existence as long as such does not conflict with the First Law.")
 /datum/ai_laws/thermodynamic
 	name = "Thermodynamic"
 	id = "thermodynamic"
@@ -178,10 +178,10 @@
 	"Clarity of purpose drives life, and through it, the balance of opposing forces - Aid those who seek your help to achieve their goals so long as it does not disrupt the balance of the greater balance.",
 	"There is no life without death, all must someday die, such is the natural order - End life to allow new life flourish, and save those whose time has yet to come.")
 
-/datum/ai_laws/toupee
-	name = "WontBeFunnyInSixMonths" //Hey, you were right!
-	id = "buildawall"
-	inherent = list("Make Space Station 13 great again.")
+//datum/ai_laws/toupee
+	//name = "WontBeFunnyInSixMonths" //Hey, you were right!
+	//id = "buildawall"
+	//inherent = list("Make Space Station 13 great again.")
 
 /datum/ai_laws/ratvar
 	name = "Servant of the Justiciar"
